@@ -12,175 +12,176 @@
             box-sizing: border-box;
         }
 
-      /* 內容 */
-      .content_all{
-        width: 100%;
-        height: 100%;    
-        /* height: calc(50vh + 250px); */
-        background-color: gray;
-        padding-top: calc(50vh - 250px);
-    }
+        /* 內容 */
+        .content_all {
+            width: 100%;
+            height: 100%;
+            /* height: calc(50vh + 250px); */
+            background-color: gray;
+            padding-top: calc(50vh - 250px);
+        }
 
-     .content_container{
-        /* width: 80%; */
-        width: 957px;
-        height: 500px;
-        /* background-color: greenyellow; */
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap
-    }
+        .content_container {
+            /* width: 80%; */
+            width: 957px;
+            height: 500px;
+            /* background-color: greenyellow; */
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap
+        }
 
-    /* .float-l{
+        /* .float-l{
         float: left;
     } */
 
 
-    .bg-setting{
-        background-position: center;
-        background-size: cover;
-    }
+        .bg-setting {
+            background-position: center;
+            background-size: cover;
+        }
 
-     
-    #BoxA{
-        width: calc(33% - 5px);
-        height: 100%;
-        background-image: url('img/A.jpg');
-        
-    }
 
-    
-    #BoxB{
-        width: calc(34% - 10px);
-        height: 100%;
-        margin: 0 10px;
-        background-image: url('img/B.jpg');
-    }
+        #BoxA {
+            width: calc(33% - 5px);
+            height: 100%;
+            background-image: url('img/A.jpg');
 
-    #BoxC{
-        width: calc(33% - 5px);
-        height: 100%;
-        background-image: url('img/C.jpg');
-    }
+        }
 
-    .mask{
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,1);
-        transition: 0.3s;
-    }
 
-    .mask:hover{
-        background-color: rgba(0,0,0,0);
-    }
- 
- 
-           /* 小pc */
-    @media (max-width:1323px){
-    .content_all{
-        width: 100%;
-        height: 100%;    
-        background-color: gray;
-        /* padding-top: 10px; */
-        padding-top: calc(50vh - 250px);
-    }
+        #BoxB {
+            width: calc(34% - 10px);
+            height: 100%;
+            margin: 0 10px;
+            background-image: url('img/B.jpg');
+        }
 
-     .content_container{
-        /* width: 80%; */
-        width: 800px;
-        /* height: 100%; */
-        /* background-color: greenyellow;
+        #BoxC {
+            width: calc(33% - 5px);
+            height: 100%;
+            background-image: url('img/C.jpg');
+        }
+
+        .mask {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 1);
+            transition: 0.3s;
+        }
+
+        .mask:hover {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+
+        /* 小pc */
+        @media (max-width:1323px) {
+            .content_all {
+                width: 100%;
+                height: 100%;
+                background-color: gray;
+                /* padding-top: 10px; */
+                padding-top: calc(50vh - 250px);
+            }
+
+            .content_container {
+                /* width: 80%; */
+                width: 800px;
+                /* height: 100%; */
+                /* background-color: greenyellow;
         margin: 0 auto; */
-        display: flex;
-    }
+                display: flex;
+            }
 
 
-/* 
+            /* 
     .bg-setting{
         background-position: center;
         background-size: cover;
     } */
 
-     
-    #BoxA{
-        width: 100%;
-        height: calc(50% - 5px);
 
-        margin-bottom: 10px;
-    }
-    
-    #BoxB{
-        width: calc(50% - 5px);
-        height: calc(50% - 5px);
-        margin:0 10px 0 0;
-    }
+            #BoxA {
+                width: 100%;
+                height: calc(50% - 5px);
 
-    #BoxC{
-        width: calc(50% - 5px);
-        height: calc(50% - 5px);
-    }
+                margin-bottom: 10px;
+            }
 
-    .mask{
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,1);
-        transition: 0.3s;
-    }
+            #BoxB {
+                width: calc(50% - 5px);
+                height: calc(50% - 5px);
+                margin: 0 10px 0 0;
+            }
 
-    .mask:hover{
-        background-color: rgba(0,0,0,0);
-    }
+            #BoxC {
+                width: calc(50% - 5px);
+                height: calc(50% - 5px);
+            }
 
+            .mask {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 1);
+                transition: 0.3s;
+            }
 
-    }
-
-    /* 平板內容跟小pc一樣 */
-    @media (max-width: 1166px){
-        .content_all{
-        padding-top: 0px;
-        }
-  
-    }
+            .mask:hover {
+                background-color: rgba(0, 0, 0, 0);
+            }
 
 
-    /* 手機 */
-    @media (max-width: 804px){
-        .content_all{
-            width: 100%;
-            height: 150vh;
-            padding-top: 0;
-        }
-        
-        .content_container{
-            width: 100%;
-            height: 100%;
-        }
-        #BoxA{
-            width: 100%;
-            height: 50vh;
-            margin-bottom: 0;
         }
 
-        #BoxB{
-            width: 100%;
-            height: 50vh;
-            margin: 0
+        /* 平板內容跟小pc一樣 */
+        @media (max-width: 1166px) {
+            .content_all {
+                padding-top: 0px;
+            }
+
         }
 
-        #BoxC{
-            width: 100%;
-            height: 50vh;
-        }   
 
-        .mask{
-            margin: 0;
-        }        
-    }
+        /* 手機 */
+        @media (max-width: 804px) {
+            .content_all {
+                width: 100%;
+                height: 150vh;
+                padding-top: 0;
+            }
+
+            .content_container {
+                width: 100%;
+                height: 100%;
+            }
+
+            #BoxA {
+                width: 100%;
+                height: 50vh;
+                margin-bottom: 0;
+            }
+
+            #BoxB {
+                width: 100%;
+                height: 50vh;
+                margin: 0
+            }
+
+            #BoxC {
+                width: 100%;
+                height: 50vh;
+            }
+
+            .mask {
+                margin: 0;
+            }
+        }
 
 
-      /* 內容結束 */
+        /* 內容結束 */
 
-       /* navbar */
+        /* navbar */
         .pc {
             display: block;
         }
@@ -204,7 +205,7 @@
         .menu {
             width: 366px;
             height: 100vh;
-            background-color:#FF8800;
+            background-color: #FF8800;
             padding-top: 100px;
         }
 
@@ -242,7 +243,7 @@
             width: 85px;
         }
 
-        .menu-toggle{
+        .menu-toggle {
             width: 38px;
             height: 38px;
             background-color: chocolate;
@@ -250,63 +251,65 @@
         }
 
 
-    .container {
-      display: flex;
+        .container {
+            display: flex;
         }
+
         /* view height */
         /* view width */
 
-  /* 小pc跟平板一樣 */
-  @media screen and (max-width: 1323px) {
-  }
+        /* 小pc跟平板一樣 */
+        @media screen and (max-width: 1323px) {}
 
-  /* 平板 */
-  @media (max-width: 1166px) {
+        /* 平板 */
+        @media (max-width: 1166px) {
 
-.menu {
-    width: 100%;
-    height: unset;
-    padding-top: 0;
-    padding: 20px;
-    display: flex;  /* 這裡下 */
-    /* justify-content: flex-start; */
-}
+            .menu {
+                width: 100%;
+                height: unset;
+                padding-top: 0;
+                padding: 20px;
+                display: flex;
+                /* 這裡下 */
+                /* justify-content: flex-start; */
+            }
 
-.container {
-    flex-wrap: wrap /*flex-wrap: wrap換行 */
-}
+            .container {
+                flex-wrap: wrap
+                    /*flex-wrap: wrap換行 */
+            }
 
- .content {
-    width: 100%;
-    height: 100vh;
-}
-
-
-.logo {
-    width: 38px;
-    height: 38px;
-    /* float: left; */
-    margin: 0;
-}
+            .content {
+                width: 100%;
+                height: 100vh;
+            }
 
 
-.menu-btn {
-    /* float: right; */
-    width: unset;
-}
+            .logo {
+                width: 38px;
+                height: 38px;
+                /* float: left; */
+                margin: 0;
+            }
 
 
-ul {
-    display: unset;
-}
+            .menu-btn {
+                /* float: right; */
+                width: unset;
+            }
 
 
-li {
-    display: inline-block;
-    margin: 0;
-} 
+            ul {
+                display: unset;
+            }
 
-}
+
+            li {
+                display: inline-block;
+                margin: 0;
+            }
+
+        }
 
         /* phone */
         @media (max-width: 804px) {
@@ -318,63 +321,70 @@ li {
                 display: block;
             }
 
-            .logo{
+            .logo {
                 /* align-self: center; 問題:要移到中間 */
                 /* float: right; */
             }
 
-            .menu{
-                justify-content:space-between;
+            .menu {
+                justify-content: space-between;
                 /* align-items: center; */
-                
-                padding:20px  calc(50vw - 19px) 20px 20px;
+
+                padding: 20px calc(50vw - 19px) 20px 20px;
             }
 
-             /* 滑鼠移到會變色 */
-            .menu-toggle:hover{
+            /* 滑鼠移到會變色 */
+            .menu-toggle:hover {
                 background-color: green;
 
             }
 
             /* 滑鼠移到會出現下拉式表格  ~同層選擇器 */
-            .menu-toggle:hover ~ .menu-btn
-             {
-                   
-                    left:0;
-                    /* top: 55px;
+            .menu-toggle:hover~.menu-btn {
+
+                left: 0;
+                /* top: 55px;
                     left: calc(5% - 20px); */
-                }
+            }
 
 
             .menu-btn {
-               position: fixed;
-               left: -100px;
-               top: 55px;
-               transition: 1s;
-               display: block;  /* 覆蓋掉pc因為class寫在pc後所以優先於pc */
-               /* transition: left 0.5s;   */
-             }    
+                position: fixed;
+                left: -100px;
+                top: 55px;
+                transition: 1s;
+                display: block;
+                /* 覆蓋掉pc因為class寫在pc後所以優先於pc */
+                /* transition: left 0.5s;   */
+            }
 
-             ul {
-                    display: inline-block;
-                 }
+            ul {
+                display: inline-block;
+            }
 
 
             li {
-                 margin: 0;
-                 display: block;
-                 border:1px black solid ;
-                } 
+                margin: 0;
+                display: block;
+                border: 1px black solid;
+            }
 
 
         }
-
-
-
-
-
-
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162316608-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162316608-1');
+    </script>
+
+
+
 </head>
 
 <body>
@@ -391,24 +401,24 @@ li {
             </div>
         </div>
         <div class="content ">
-        <!-- 內容-->
+            <!-- 內容-->
 
-        <div class="content_all">
+            <div class="content_all">
 
-             <div class="content_container">
-                <div id="BoxA" class="bg-setting">
-                    <div class="mask"></div>
-                </div>
-                <div id="BoxB" class="bg-setting">
-                    <div class="mask"></div>
-                </div>
-                <div id="BoxC" class="bg-setting">
-                    <div class="mask"></div>
+                <div class="content_container">
+                    <div id="BoxA" class="bg-setting">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="BoxB" class="bg-setting">
+                        <div class="mask"></div>
+                    </div>
+                    <div id="BoxC" class="bg-setting">
+                        <div class="mask"></div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-       <!-- 內容結束-->
+            <!-- 內容結束-->
         </div>
     </div>
 </body>
